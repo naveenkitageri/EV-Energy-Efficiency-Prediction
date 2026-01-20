@@ -10,7 +10,7 @@ Built an end-to-end ML pipeline to predict EV energy efficiency using XGBoost, i
 - make and model
 
 # Dataset
--source: EV Energy Efficiency Dataset (kaggel Dataset)
+- Source: EV Energy Efficiency Dataset (kaggel Dataset)
 Taget variable:
 **Energy Efficiency (km/kWh)**
 
@@ -35,14 +35,14 @@ feature variable:
 11. Model saving
 
 # Model performance (r2_score)
-model                  |     R2 score
-1.Linear Regression    |   0.81
-2.Decision Tree        |   0.91
-3. Random Forest       |   0.92
-4. Gradient Boost      |   0.85
-5. XGBoost             |   0.92
-6. SVM                 |   0.81
-7. KNN                 |   0.29
+model                  :     R2 score
+1.Linear Regression    :   0.81  |
+2.Decision Tree        :   0.91  |
+3. Random Forest       :   0.92  |
+4. Gradient Boost      :   0.85  |
+5. XGBoost             :   0.92  |
+6. SVM                 :   0.81  |
+7. KNN                 :   0.29  
 
 # Final Model 
 - Selected model : **XGBoost Regression**
